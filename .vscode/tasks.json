@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "${workspaceFolder}/src/main.c",
+        "${workspaceFolder}/src/login.c",
+        "${workspaceFolder}/src/student.c",
+        "${workspaceFolder}/src/utils.c",
+        "-I",
+        "${workspaceFolder}/include",
+        "-o",
+        "${workspaceFolder}/bin/shopManagement"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
