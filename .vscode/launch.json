@@ -2,16 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Student Management System",
+      "name": "Debug Student Management System",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/bin/shopManagement",
+      "program": "${workspaceFolder}/bin/main.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": false,
       "MIMode": "gdb",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
